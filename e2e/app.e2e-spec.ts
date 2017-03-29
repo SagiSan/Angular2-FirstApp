@@ -1,10 +1,10 @@
-import { FirstAppPage } from './app.po';
+import { Angular4FirstAppPage } from './app.po';
 
-describe('first-app App', function() {
-  let page: FirstAppPage;
+describe('angular4-first-app App', function() {
+  let page: Angular4FirstAppPage;
 
   beforeEach(() => {
-    page = new FirstAppPage();
+    page = new Angular4FirstAppPage();
   });
 
   it('should display message saying app works', () => {
